@@ -1,0 +1,429 @@
+TITLE: D17
+FCM: NON-DROP FRAME
+
+001  AX       AA/V  C        -1:59:59:16 00:00:00:22  00:00:00:00 00:00:01:05
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+002  AX       AA/V  C        00:00:10:14 00:00:12:06  00:00:01:05 00:00:02:21
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+003  AX       AA/V  C        00:00:34:23 00:00:39:18  00:00:02:21 00:00:07:16
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+004  AX       AA/V  C        00:00:43:01 00:00:46:22  00:00:07:16 00:00:11:13
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+005  AX       AA/V  C        00:00:47:17 00:00:49:11  00:00:11:13 00:00:13:07
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+006  AX       AA/V  C        00:00:56:18 00:01:00:09  00:00:13:07 00:00:16:21
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+007  AX       AA/V  C        00:01:02:15 00:01:06:12  00:00:16:21 00:00:20:18
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+008  AX       AA/V  C        00:01:11:15 00:01:13:07  00:00:20:18 00:00:22:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+009  AX       AA/V  C        00:01:22:12 00:01:23:03  00:00:22:10 00:00:23:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+010  AX       AA/V  C        00:01:29:14 00:01:33:11  00:00:23:01 00:00:26:21
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+011  AX       AA/V  C        00:01:34:02 00:01:36:23  00:00:26:21 00:00:29:18
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+012  AX       AA/V  C        00:01:37:16 00:01:40:01  00:00:29:18 00:00:32:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+013  AX       AA/V  C        00:01:43:16 00:01:44:10  00:00:32:03 00:00:32:21
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+014  AX       AA/V  C        00:01:44:22 00:01:50:18  00:00:32:21 00:00:38:17
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+015  AX       AA/V  C        00:01:51:08 00:01:59:04  00:00:38:17 00:00:46:13
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+016  AX       AA/V  C        00:02:06:23 00:02:08:12  00:00:46:13 00:00:48:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+017  AX       AA/V  C        00:02:08:22 00:02:09:14  00:00:48:01 00:00:48:17
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+018  AX       AA/V  C        00:02:15:04 00:02:19:07  00:00:48:17 00:00:52:21
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+019  AX       AA/V  C        00:02:23:01 00:02:24:16  00:00:52:21 00:00:54:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+020  AX       AA/V  C        00:02:39:03 00:02:46:21  00:00:54:12 00:01:02:06
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+021  AX       AA/V  C        00:02:58:10 00:03:00:16  00:01:02:06 00:01:04:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+022  AX       AA/V  C        00:03:05:16 00:03:09:05  00:01:04:12 00:01:08:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+023  AX       AA/V  C        00:03:13:05 00:03:17:18  00:01:08:01 00:01:12:15
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+024  AX       AA/V  C        00:03:29:05 00:03:32:15  00:01:12:15 00:01:16:00
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+025  AX       AA/V  C        00:03:43:12 00:03:45:14  00:01:16:00 00:01:18:02
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+026  AX       AA/V  C        00:03:52:09 00:03:53:20  00:01:18:02 00:01:19:13
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+027  AX       AA/V  C        00:03:55:07 00:03:57:23  00:01:19:13 00:01:22:05
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+028  AX       AA/V  C        00:03:58:21 00:04:02:03  00:01:22:05 00:01:25:11
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+029  AX       AA/V  C        00:04:03:18 00:04:07:21  00:01:25:11 00:01:29:14
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+030  AX       AA/V  C        00:04:12:13 00:04:14:17  00:01:29:14 00:01:31:18
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+031  AX       AA/V  C        00:04:20:18 00:04:24:15  00:01:31:18 00:01:35:14
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+032  AX       AA/V  C        00:04:40:14 00:04:44:05  00:01:35:14 00:01:39:05
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+033  AX       AA/V  C        00:04:46:11 00:04:49:20  00:01:39:05 00:01:42:14
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+034  AX       AA/V  C        00:04:53:07 00:04:57:16  00:01:42:14 00:01:46:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+035  AX       AA/V  C        00:04:58:23 00:05:00:08  00:01:46:23 00:01:48:08
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+036  AX       AA/V  C        00:05:01:19 00:05:05:12  00:01:48:08 00:01:52:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+037  AX       AA/V  C        00:05:09:00 00:05:12:13  00:01:52:01 00:01:55:15
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+038  AX       AA/V  C        00:05:16:01 00:05:18:13  00:01:55:15 00:01:58:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+039  AX       AA/V  C        00:05:19:00 00:05:24:09  00:01:58:03 00:02:03:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+040  AX       AA/V  C        00:05:28:11 00:05:36:00  00:02:03:12 00:02:11:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+041  AX       AA/V  C        00:05:38:12 00:05:40:21  00:02:11:01 00:02:13:09
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+042  AX       AA/V  C        00:05:47:00 00:05:50:05  00:02:13:09 00:02:16:14
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+043  AX       AA/V  C        00:06:02:12 00:06:04:00  00:02:16:14 00:02:18:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+044  AX       AA/V  C        00:06:05:18 00:06:07:18  00:02:18:03 00:02:20:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+045  AX       AA/V  C        00:06:12:19 00:06:19:23  00:02:20:04 00:02:27:07
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+046  AX       AA/V  C        00:06:25:01 00:06:26:09  00:02:27:07 00:02:28:16
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+047  AX       AA/V  C        00:06:27:19 00:06:28:13  00:02:28:16 00:02:29:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+048  AX       AA/V  C        00:06:29:03 00:06:37:20  00:02:29:10 00:02:38:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+049  AX       AA/V  C        00:06:41:13 00:06:46:06  00:02:38:03 00:02:42:20
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+050  AX       AA/V  C        00:06:48:21 00:06:51:08  00:02:42:20 00:02:45:07
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+051  AX       AA/V  C        00:06:54:10 00:06:56:03  00:02:45:07 00:02:47:00
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+052  AX       AA/V  C        00:06:59:06 00:07:01:05  00:02:47:00 00:02:48:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+053  AX       AA/V  C        00:07:02:02 00:07:04:17  00:02:48:23 00:02:51:14
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+054  AX       AA/V  C        00:07:13:00 00:07:13:20  00:02:51:14 00:02:52:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+055  AX       AA/V  C        00:07:14:09 00:07:17:20  00:02:52:10 00:02:55:21
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+056  AX       AA/V  C        00:07:21:16 00:07:23:16  00:02:55:21 00:02:57:20
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+057  AX       AA/V  C        00:07:24:11 00:07:26:14  00:02:57:20 00:02:59:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+058  AX       AA/V  C        00:07:30:17 00:07:36:17  00:02:59:23 00:03:05:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+059  AX       AA/V  C        00:07:38:23 00:07:40:12  00:03:05:23 00:03:07:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+060  AX       AA/V  C        00:07:41:09 00:07:44:01  00:03:07:12 00:03:10:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+061  AX       AA/V  C        00:07:48:00 00:07:51:07  00:03:10:04 00:03:13:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+062  AX       AA/V  C        00:07:52:05 00:07:58:14  00:03:13:10 00:03:19:19
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+063  AX       AA/V  C        00:08:02:08 00:08:04:11  00:03:19:19 00:03:21:22
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+064  AX       AA/V  C        00:08:05:00 00:08:10:03  00:03:21:22 00:03:27:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+065  AX       AA/V  C        00:08:19:08 00:08:20:22  00:03:27:01 00:03:28:16
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+066  AX       AA/V  C        00:08:26:08 00:08:27:00  00:03:28:16 00:03:29:08
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+067  AX       AA/V  C        00:08:27:10 00:08:29:04  00:03:29:08 00:03:31:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+068  AX       AA/V  C        00:08:38:10 00:08:43:01  00:03:31:03 00:03:35:18
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+069  AX       AA/V  C        00:08:43:20 00:08:44:12  00:03:35:18 00:03:36:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+070  AX       AA/V  C        00:08:46:11 00:08:49:18  00:03:36:10 00:03:39:17
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+071  AX       AA/V  C        00:08:50:16 00:08:53:14  00:03:39:17 00:03:42:15
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+072  AX       AA/V  C        00:08:54:18 00:08:57:05  00:03:42:15 00:03:45:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+073  AX       AA/V  C        00:08:59:07 00:09:02:09  00:03:45:03 00:03:48:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+074  AX       AA/V  C        00:09:05:20 00:09:07:06  00:03:48:04 00:03:49:14
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+075  AX       AA/V  C        00:09:08:05 00:09:11:15  00:03:49:14 00:03:53:00
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+076  AX       AA/V  C        00:09:13:17 00:09:19:08  00:03:53:00 00:03:58:15
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+077  AX       AA/V  C        00:09:23:01 00:09:28:02  00:03:58:15 00:04:03:15
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+078  AX       AA/V  C        00:09:32:09 00:09:36:17  00:04:03:15 00:04:07:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+079  AX       AA/V  C        00:09:40:08 00:09:42:18  00:04:07:23 00:04:10:09
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+080  AX       AA/V  C        00:09:43:15 00:09:46:09  00:04:10:09 00:04:13:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+081  AX       AA/V  C        00:09:47:08 00:09:50:09  00:04:13:03 00:04:16:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+082  AX       AA/V  C        00:09:56:09 00:09:59:15  00:04:16:04 00:04:19:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+083  AX       AA/V  C        00:10:01:11 00:10:02:17  00:04:19:10 00:04:20:16
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+084  AX       AA/V  C        00:10:11:00 00:10:13:06  00:04:20:16 00:04:22:22
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+085  AX       AA/V  C        00:10:21:20 00:10:24:16  00:04:22:22 00:04:25:18
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+086  AX       AA/V  C        00:10:33:07 00:10:38:18  00:04:25:18 00:04:31:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+087  AX       AA/V  C        00:10:39:14 00:10:44:06  00:04:31:04 00:04:35:20
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+088  AX       AA/V  C        00:10:45:16 00:10:48:07  00:04:35:20 00:04:38:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+089  AX       AA/V  C        00:10:49:10 00:10:51:10  00:04:38:12 00:04:40:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+090  AX       AA/V  C        00:10:51:22 00:10:53:21  00:04:40:12 00:04:42:11
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+091  AX       AA/V  C        00:10:56:04 00:10:59:15  00:04:42:11 00:04:45:22
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+092  AX       AA/V  C        00:11:00:08 00:11:04:14  00:04:45:22 00:04:50:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+093  AX       AA/V  C        00:11:05:10 00:11:06:08  00:04:50:04 00:04:51:02
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+094  AX       AA/V  C        00:11:07:07 00:11:11:07  00:04:51:02 00:04:55:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+095  AX       AA/V  C        00:11:17:16 00:11:19:10  00:04:55:01 00:04:56:19
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+096  AX       AA/V  C        00:11:20:00 00:11:22:13  00:04:56:19 00:04:59:08
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+097  AX       AA/V  C        00:11:23:11 00:11:25:08  00:04:59:08 00:05:01:05
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+098  AX       AA/V  C        00:11:33:15 00:11:36:17  00:05:01:05 00:05:04:07
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+099  AX       AA/V  C        00:11:37:07 00:11:40:12  00:05:04:07 00:05:07:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+100  AX       AA/V  C        00:11:41:18 00:11:48:21  00:05:07:12 00:05:14:15
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+101  AX       AA/V  C        00:11:50:01 00:11:52:19  00:05:14:15 00:05:17:09
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+102  AX       AA/V  C        00:11:54:07 00:11:57:09  00:05:17:09 00:05:20:11
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+103  AX       AA/V  C        00:11:58:03 00:12:03:00  00:05:20:11 00:05:25:09
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+104  AX       AA/V  C        00:12:06:23 00:12:08:08  00:05:25:09 00:05:26:18
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+105  AX       AA/V  C        00:12:08:22 00:12:13:17  00:05:26:18 00:05:31:13
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+106  AX       AA/V  C        00:12:14:20 00:12:17:10  00:05:31:13 00:05:34:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+107  AX       AA/V  C        00:12:17:20 00:12:20:03  00:05:34:03 00:05:36:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+108  AX       AA/V  C        00:12:24:12 00:12:30:21  00:05:36:10 00:05:42:19
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+109  AX       AA/V  C        00:12:34:06 00:12:43:11  00:05:42:19 00:05:52:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+110  AX       AA/V  C        00:12:46:03 00:12:48:05  00:05:52:01 00:05:54:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+111  AX       AA/V  C        00:12:48:17 00:12:57:06  00:05:54:03 00:06:02:16
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+112  AX       AA/V  C        00:12:57:16 00:13:00:03  00:06:02:16 00:06:05:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+113  AX       AA/V  C        00:13:01:13 00:13:04:22  00:06:05:04 00:06:08:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+114  AX       AA/V  C        00:13:05:18 00:13:08:05  00:06:08:12 00:06:10:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+115  AX       AA/V  C        00:13:08:19 00:13:10:18  00:06:10:23 00:06:12:22
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+116  AX       AA/V  C        00:13:11:23 00:13:13:20  00:06:12:22 00:06:14:19
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+117  AX       AA/V  C        00:13:15:08 00:13:16:16  00:06:14:19 00:06:16:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+118  AX       AA/V  C        00:13:17:12 00:13:21:04  00:06:16:03 00:06:19:19
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+119  AX       AA/V  C        00:13:25:00 00:13:26:15  00:06:19:19 00:06:21:09
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+120  AX       AA/V  C        00:13:27:15 00:13:29:07  00:06:21:09 00:06:23:01
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+121  AX       AA/V  C        00:13:33:04 00:13:36:01  00:06:23:01 00:06:25:22
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+122  AX       AA/V  C        00:13:41:21 00:13:51:04  00:06:25:22 00:06:35:05
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+123  AX       AA/V  C        00:13:54:14 00:13:58:09  00:06:35:05 00:06:38:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+124  AX       AA/V  C        00:13:59:07 00:14:00:10  00:06:38:23 00:06:40:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+125  AX       AA/V  C        00:14:01:12 00:14:05:20  00:06:40:03 00:06:44:11
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+126  AX       AA/V  C        00:14:06:15 00:14:07:11  00:06:44:11 00:06:45:07
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+127  AX       AA/V  C        00:14:08:14 00:14:09:09  00:06:45:07 00:06:46:03
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+128  AX       AA/V  C        00:14:18:03 00:14:22:17  00:06:46:03 00:06:50:17
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+129  AX       AA/V  C        00:14:23:23 00:14:26:12  00:06:50:17 00:06:53:06
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+130  AX       AA/V  C        00:14:31:09 00:14:35:14  00:06:53:06 00:06:57:11
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+131  AX       AA/V  C        00:14:36:10 00:14:37:11  00:06:57:11 00:06:58:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+132  AX       AA/V  C        00:14:37:21 00:14:39:19  00:06:58:12 00:07:00:09
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+133  AX       AA/V  C        00:14:40:11 00:14:42:12  00:07:00:09 00:07:02:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+134  AX       AA/V  C        00:14:45:21 00:14:47:10  00:07:02:10 00:07:03:23
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+135  AX       AA/V  C        00:14:49:03 00:14:54:07  00:07:03:23 00:07:09:04
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+136  AX       AA/V  C        00:15:00:19 00:15:08:01  00:07:09:04 00:07:16:10
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+137  AX       AA/V  C        00:15:09:06 00:15:11:17  00:07:16:10 00:07:18:21
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+138  AX       AA/V  C        00:15:19:17 00:15:22:05  00:07:18:21 00:07:21:09
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+139  AX       AA/V  C        00:15:25:23 00:15:29:12  00:07:21:09 00:07:24:22
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+140  AX       AA/V  C        00:15:30:00 00:15:32:09  00:07:24:22 00:07:27:07
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+141  AX       AA/V  C        00:15:33:11 00:15:37:15  00:07:27:07 00:07:31:12
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
+142  AX       AA/V  C        00:15:46:05 00:15:51:18  00:07:31:12 00:07:37:00
+* FROM CLIP NAME:  /Users/daniel/D17.mp4
+
