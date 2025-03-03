@@ -30,15 +30,16 @@ zig build --release=fast, safe or small
 ```
 
 ## 🛠️ Usage  
-jumpcut -i <inputfile> -o <outputfile> -d <decibel> -s <silence duration> -a <adjustment>
+```bash
+jumpcut -i [inputfile] -o [outputfile] -d [decibel] -s [silence duration] -a [adjustment]
 
 -i: Input file path. [REQUIRED]
--o: Output file path. If not provided, the output will be saved in the same directory as the input file as `<inputfile name>.edl`.
+-o: Output file path. If not provided, the output will be saved in the same directory as the input file as `[inputfile name].edl`.
 -d: A negative number as decibel threshold for silence detection. Default is '-25'.  
 -s: A positive float number as the minimum duration of silence to be detected. Default is '1.0' seconds.
 -a: A positive float number as adjustment for the start and end of the detected silence. Default is '0.3' seconds.
 
-```bash
+```
 
 
 ## 📌 Roadmap  
