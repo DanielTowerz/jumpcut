@@ -1,91 +1,89 @@
 const std = @import("std");
 
-pub fn getHead(
-    allocator: std.mem.Allocator,
+pub fn setHead(
+    output_str: *std.ArrayList(u8),
     title: []const u8,
-) ![]const u8 {
-    var buffer = std.ArrayList(u8).init(allocator);
-    defer buffer.deinit();
-    var writer = buffer.writer();
+) !void {
+    var writer = output_str.writer();
     try writer.print(
         \\TITLE: {s}
         \\FCM: NON-DROP FRAME
         \\
         \\
     , .{title});
-    return try buffer.toOwnedSlice();
+    // return try buffer.toOwnedSlice();
+    // try output_file.write(buffer.items);
 }
 
 pub fn getEdlLine(
-    // Comment to avoid formatting by the editor
-    allocator: std.mem.Allocator,
+    // allocator: std.mem.Allocator,
+    output_str: *std.ArrayList(u8),
     index: f64,
-    current_start: f64,
+    offset: f64,
     start: f64,
     end: f64,
-    duration: f64,
-    // Comment to avoid formatting by the editor
-) !struct { line: ?[]const u8, current_start: f64 } {
-    // 00:00:10:00 00:00:15:12  00:00:00:00 00:00:05:12
-    // ---fuente-- --fuente--   --edit--     --edit--
-    // ---start--- --end---     --c_start--  --c_start + duration--
-    const add = 0.3;
-    const edl_start = try secondsToSMPTETimecode(allocator, start - add);
-    const edl_end = try secondsToSMPTETimecode(allocator, end + add);
-    // current_start = current_start + 1;
-    const edl_edit_start = try secondsToSMPTETimecode(allocator, current_start);
-    // duration = duration + 2;
-    const edl_edit_end = try secondsToSMPTETimecode(allocator, current_start + duration + (add * 2));
+    clip_frame_rate: f64,
+    add: f16,
+) !f64 {
+    const duration = end - start;
+    const edl_start = try secondsToSMPTETimecode(start - add, clip_frame_rate);
+    const edl_end = try secondsToSMPTETimecode(end + add, clip_frame_rate);
+    const edl_edit_start = try secondsToSMPTETimecode(offset, clip_frame_rate);
+    const new_offset = offset + duration + (add * 2);
+    const edl_edit_end = try secondsToSMPTETimecode(new_offset, clip_frame_rate);
 
-    var buffer = std.ArrayList(u8).init(allocator);
-    defer buffer.deinit();
-    var writer = buffer.writer();
-    writer.print(
-        \\{d:0>3}  AX       AA/V  C        {s} {s}  {s} {s}
+    // var buffer = std.ArrayList(u8).init(allocator);
+    var writer = output_str.writer();
+    try writer.print(
+        \\{d:0>3}  AX       AA/V  C        {d:0>2}:{d:0>2}:{d:0>2}:{d:0>2} {d:0>2}:{d:0>2}:{d:0>2}:{d:0>2}  {d:0>2}:{d:0>2}:{d:0>2}:{d:0>2} {d:0>2}:{d:0>2}:{d:0>2}:{d:0>2}
         \\* FROM CLIP NAME:  {s}{s}
     , .{
-        index,                   edl_start, edl_end, edl_edit_start, edl_edit_end,
-        "/Users/daniel/D17.mp4", "\n\n",
-    }) catch {
-        return .{ .line = null, .current_start = current_start };
-    };
-    return .{ .line = try buffer.toOwnedSlice(), .current_start = current_start + duration + (add * 2) };
+        index,
+        edl_start.hours,
+        edl_start.minutes,
+        edl_start.seconds,
+        edl_start.frames,
+        edl_end.hours,
+        edl_end.minutes,
+        edl_end.seconds,
+        edl_end.frames,
+        edl_edit_start.hours,
+        edl_edit_start.minutes,
+        edl_edit_start.seconds,
+        edl_edit_start.frames,
+        edl_edit_end.hours,
+        edl_edit_end.minutes,
+        edl_edit_end.seconds,
+        edl_edit_end.frames,
+        "/Users/daniel/D17.mp4",
+        "\n\n",
+    });
+    return new_offset;
 }
 
 fn secondsToSMPTETimecode(
-    // Comment to avoid formatting by the editor
-    allocator: std.mem.Allocator,
+    // allocator: std.mem.Allocator,
     sec: f64,
-) ![]const u8 {
-    // std.debug.print("sec: {d}\n", .{sec});
-    const fps = 23.976;
-    const frame_number = @floor(sec * fps);
-    // std.debug.print("frame_number: {d}\n", .{frame_number});
-    const frame_round = @round(fps);
-    const frames = @mod(frame_number, frame_round);
-    const seconds = @floor(@mod((frame_number / frame_round), 60));
-    const minutes = @floor(@mod(((frame_number / frame_round) / 60), 60));
-    const hours = @floor((((frame_number / frame_round) / 60) / 60));
-    var buffer = std.ArrayList(u8).init(allocator);
-    defer buffer.deinit();
-    var writer = buffer.writer();
-    try writer.print("{d:0>2}:{d:0>2}:{d:0>2}:{d:0>2}", .{ hours, minutes, seconds, frames });
+    clip_frame_rate: f64,
+) !struct { hours: f64, minutes: f64, seconds: f64, frames: f64 } {
+    // const clip_frame_rate = 23.976;
+    const round_frames = @round(clip_frame_rate);
+    const clip_frames = @floor(sec * clip_frame_rate);
+    var clip_seconds = @floor(clip_frames / round_frames);
 
-    // const ttf = timecodeToFrames(hours, minutes, seconds, frames);
-    // std.debug.print("ttf: {d}\n", .{ttf});
+    if (clip_seconds < 0) {
+        clip_seconds = 0;
+    }
+
+    const smpte_hours = @floor((clip_seconds / 60) / 60);
+    const smpte_minutes = @floor(@mod((clip_seconds / 60), 60));
+    const smpte_seconds = @floor(@mod(clip_seconds, 60));
+    const smpte_frames = @mod(clip_frames, round_frames);
+    return .{ .hours = smpte_hours, .minutes = smpte_minutes, .seconds = smpte_seconds, .frames = smpte_frames };
+
+    // var buffer = std.ArrayList(u8).init(allocator);
+    // var writer = buffer.writer();
+    // try writer.print("{d:0>2}:{d:0>2}:{d:0>2}:{d:0>2}", .{ smpte_hours, smpte_minutes, smpte_seconds, smpte_frames });
     //
-    // const stf = framesToSeconds(ttf);
-    // std.debug.print("stf: {d}\n", .{stf});
-
-    return buffer.toOwnedSlice();
+    // return buffer.toOwnedSlice();
 }
-
-// fn timecodeToFrames(hours: f64, minutes: f64, seconds: f64, frames: f64) f64 {
-//     return (hours * 3600 + minutes * 60 + seconds) * 24 + frames;
-// }
-//
-// fn framesToSeconds(frames: f64) f64 {
-//     const numerator = frames * 1001;
-//     const denominator = 23976;
-//     return numerator / denominator;
-// }
