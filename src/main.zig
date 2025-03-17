@@ -87,7 +87,7 @@ fn parseArgs() !void {
             };
         } else {
             std.debug.print("Error: Unknown argument: {s}\n", .{arg});
-            return;
+            // return;
         }
         i += 1;
     }
@@ -95,7 +95,6 @@ fn parseArgs() !void {
         std.debug.print("Error: -i input_file_path is required\n", .{});
         return error.InvalidInputFilePath;
     }
-    // std.debug.print("input_file_path: {s}\n", .{input_file_path});
 
     const file_name = std.fs.path.stem(input_file_path);
     const input_file_dir = std.fs.path.dirname(input_file_path);

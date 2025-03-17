@@ -42,14 +42,14 @@ pub fn build(b: *std.Build) void {
     // Modules can depend on one another using the `std.Build.Module.addImport` function.
     // This is what allows Zig source code to use `@import("foo")` where 'foo' is not a
     // file path. In this case, we set up `exe_mod` to import `lib_mod`.
-    exe_mod.addImport("jumpcut_lib", lib_mod);
+    exe_mod.addImport("jumpcut_din_lib", lib_mod);
 
     // Now, we will create a static library based on the module we created above.
     // This creates a `std.Build.Step.Compile`, which is the build step responsible
     // for actually invoking the compiler.
     const lib = b.addLibrary(.{
         .linkage = .static,
-        .name = "jumpcut",
+        .name = "jumpcut_din",
         .root_module = lib_mod,
     });
 
@@ -60,17 +60,39 @@ pub fn build(b: *std.Build) void {
 
     // This creates another `std.Build.Step.Compile`, but this one builds an executable
     // rather than a static library.
-    const ffmpeg_dep = b.dependency("ffmpeg", .{
-        .target = target,
-        .optimize = optimize,
-    });
-
     const exe = b.addExecutable(.{
-        .name = "jumpcut",
+        .name = "jumpcut_din",
         .root_module = exe_mod,
     });
 
-    exe.root_module.addImport("av", ffmpeg_dep.module("av"));
+    // Añadir el directorio de cabeceras de FFmpeg
+    // exe.addIncludePath(b.path("../../../../../usr/local/include/"));
+
+    // Añadir el directorio de librerías estáticas de FFmpeg
+    // exe.addLibraryPath(b.path("lib"));
+
+    // Enlazar las librerías estáticas de FFmpeg
+    exe.linkSystemLibrary("avcodec");
+    exe.linkSystemLibrary("avfilter");
+    exe.linkSystemLibrary("avformat");
+    exe.linkSystemLibrary("avutil");
+    // exe.linkSystemLibrary("swscale");
+
+    // Enlazar con librerías del sistema que FFmpeg pueda necesitar
+    exe.linkSystemLibrary("c");
+    exe.linkSystemLibrary("m");
+    exe.linkSystemLibrary("pthread");
+
+    // B I N D I N G S
+    const bindings = b.addModule("av", .{
+        .root_source_file = b.path("av.zig"),
+        .target = target,
+        .optimize = optimize,
+    });
+    bindings.linkLibrary(lib);
+
+    exe.root_module.addImport("av", bindings);
+
     // This declares intent for the executable to be installed into the
     // standard location when the user invokes the "install" step (the default
     // step when running `zig build`).

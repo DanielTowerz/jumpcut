@@ -3,8 +3,3 @@ zig-cache/
 .zig-cache/
 .git/
 .gitignore
-src/args.zig
-src/date.zig
-src/fcpxml.zig
-src/math.zig
-src/timecode.zig
