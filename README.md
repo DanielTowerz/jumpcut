@@ -1,13 +1,14 @@
 # 🎬 JumpCut – Smart Vlog Editing  
 
 **JumpCut** is a **Zig**-powered tool that analyzes video or audio files, detects silence, and automatically generates a seamless timeline (EDL) by keeping only the spoken sections. This helps vloggers and content creators streamline their editing process by removing silent gaps, optimizing video flow.  
-It uses ffmpeg libraries statically linked, so no external dependencies are needed.
-This project uses a fork of Zig with bindings to [FFmpeg](https://github.com/DanielTowerz/ffmpeg.git).
-FFmpeg is a project licensed under LGPL/GPL, depending on its configuration. Users should verify the compatibility of their usage with the corresponding license terms.
+It uses ffmpeg libraries dynamically linked, so you need to have ffmpeg installed on your system.
+<!--It uses ffmpeg libraries statically linked, so no external dependencies are needed.-->
+<!--This project uses a fork of Zig with bindings to [FFmpeg](https://github.com/DanielTowerz/ffmpeg.git).-->
+<!--FFmpeg is a project licensed under LGPL/GPL, depending on its configuration. Users should verify the compatibility of their usage with the corresponding license terms.-->
 
 ## ✨ Features  
 
-✅ **No external dependencies needed!!**.
+<!--✅ **No external dependencies needed!!**.-->
 ✅ **Automatic silence detection** in video and audio files.  
 ✅ **Exports to editing formats** like  **EDL** (DaVinci Resolve, Premiere Pro).  
 ✅ **Efficient processing** powered by Zig’s speed and safety.  
